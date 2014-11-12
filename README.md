@@ -6,7 +6,7 @@ An OSX Automator Workflow for creating relative-pathed m3u playlists from audio 
 Installation
 ------------
 
-To install, simply `git clone https://github.com/bmatcuk/Create-Playlist.workflow.git ~/Library/Services/`.
+To install, simply `git clone https://github.com/bmatcuk/Create-Playlist.workflow.git ~/Library/Services/Create-Playlist.workflow`.
 
 To use, open a Finder window and locate a folder for which you want to create a playlist.
 Right click on this folder and select Services, Create Playlist.
