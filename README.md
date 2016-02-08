@@ -9,7 +9,7 @@ Installation
 To install, simply `git clone https://github.com/bmatcuk/Create-Playlist.workflow.git ~/Library/Services/Create-Playlist.workflow`.
 
 To use, open a Finder window and locate a folder for which you want to create a playlist.
-Right click on this folder and select Services, Create Playlist.
+Right click on this folder and select Services, Create-Playlist.
 In a moment, a file will be created in the current folder with the same name as the folder you selected and the .m3u extension.
 You can also select multiple folders.
 Right click and select Services, Create Playlist as before and you'll get a .m3u file for each folder selected!
@@ -24,7 +24,7 @@ How Does it Work?
 This is an [Automator](http://macosxautomation.com/automator/) workflow that runs a simple shell script.
 Here's the meat of the workflow:
 
-[![Create Playlist Shell Script](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Preview.png)](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Preview.png)
+[![Create Playlist Shell Script](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Thumbnail.png)](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Thumbnail.png)
 
 The script loops through the arguments (the selected folders, in this case), switches to that folder, and then searches for audio files recursively.
 Whenever an audio file is found, it is appended to the m3u file using some appropriate formatting.

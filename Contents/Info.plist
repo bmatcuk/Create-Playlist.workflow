@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Create Playlist</string>
+				<string>Create-Playlist</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
