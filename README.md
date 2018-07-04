@@ -7,6 +7,9 @@ Installation
 ------------
 
 To install, simply `git clone https://github.com/bmatcuk/Create-Playlist.workflow.git ~/Library/Services/Create-Playlist.workflow`.
+You may need to "open" the workflow to get it to appear in the Services menu.
+To do that, just navigate to ~/Library/Services and double click Create-Playlist.workflow to open it in Automator.
+You don't need to do anything here; just close Automator.
 
 To use, open a Finder window and locate a folder for which you want to create a playlist.
 Right click on this folder and select Services, Create-Playlist.
