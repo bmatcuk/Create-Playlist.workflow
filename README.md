@@ -18,7 +18,7 @@ You can also select multiple folders.
 Right click and select Services, Create Playlist as before and you'll get a .m3u file for each folder selected!
 Note: There may be a limit to the number of folders the workflow can process at a time...
 
-This script will find .mp3, .aac, .m4a, .wav, and .wma files.
+This script will find .mp3, .aac, .m4a, .wav, .wma, .flac, and .ogg files.
 If there are any others you think it should support, file an Issue.
 
 How Does it Work?
