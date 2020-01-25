@@ -18,17 +18,13 @@ You can also select multiple folders.
 Right click and select Services, Create Playlist as before and you'll get a .m3u file for each folder selected!
 Note: There may be a limit to the number of folders the workflow can process at a time...
 
-This script will find .mp3, .aac, .m4a, .wav, .wma, .flac, and .ogg files.
+This script will find .mp3, .aac, .m4a, .wav, .wma, .flac, .ogg, .pcm, .aiff, and .alac files.
 If there are any others you think it should support, file an Issue.
 
 How Does it Work?
 -----------------
 
 This is an [Automator](http://macosxautomation.com/automator/) workflow that runs a simple shell script.
-Here's the meat of the workflow:
-
-[![Create Playlist Shell Script](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Thumbnail.png)](https://raw.githubusercontent.com/bmatcuk/Create-Playlist.workflow/master/Contents/QuickLook/Thumbnail.png)
-
 The script loops through the arguments (the selected folders, in this case), switches to that folder, and then searches for audio files recursively.
 Whenever an audio file is found, it is appended to the m3u file using some appropriate formatting.
 

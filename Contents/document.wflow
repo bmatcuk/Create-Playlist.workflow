@@ -402,7 +402,7 @@ if [ "$SORT" != "false" ]; then
 
 		# Find all music and output to tmp file as:
 		# CreationDate ModifiedDate Filename
-		find -Es . -type f -iregex '.*\.(mp3|aac|m4a|wav|wma|flac|ogg)' -exec bash -c 'file="{}"; stat -f "%SB %Sm ${PWD##*/}/${file#*/}" -t "%s" "$file"' &gt; "${PLAYLIST}.tmp" \;
+		find -Es . -type f -iregex '.*\.(mp3|aac|m4a|wav|wma|flac|ogg|pcm|aiff|alac)' -exec bash -c 'file="{}"; stat -f "%SB %Sm ${PWD##*/}/${file#*/}" -t "%s" "$file"' &gt; "${PLAYLIST}.tmp" \;
 
 		# Sort, cut, and copy to playlist
 		if [ "$SORT" == "Creation Date" ]; then
@@ -541,26 +541,26 @@ fi</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0E82146D-8FC0-4B36-943B-2DACF9B76854</key>
-		<dict>
-			<key>from</key>
-			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
-			<key>to</key>
-			<string>4751531C-B72C-4308-AD90-21392D94B713 - 4751531C-B72C-4308-AD90-21392D94B713</string>
-		</dict>
-		<key>14D35FB9-73DF-4716-BD86-7011248DFB62</key>
+		<key>13397D12-27F3-4293-818F-9891F5CF8BB4</key>
 		<dict>
 			<key>from</key>
 			<string>70F6F4D7-0B41-4AA2-8A57-D056BEE53D21 - 70F6F4D7-0B41-4AA2-8A57-D056BEE53D21</string>
 			<key>to</key>
 			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
 		</dict>
-		<key>1E953255-CB73-46AF-9D2E-3394B859BF20</key>
+		<key>A982F203-F71B-473B-B267-3AFAABF7B23A</key>
 		<dict>
 			<key>from</key>
 			<string>4751531C-B72C-4308-AD90-21392D94B713 - 4751531C-B72C-4308-AD90-21392D94B713</string>
 			<key>to</key>
 			<string>8D841DED-DE6C-4090-8653-D34304093735 - 8D841DED-DE6C-4090-8653-D34304093735</string>
+		</dict>
+		<key>F33CE43E-2EED-4AF1-98AE-CED0E6B6C495</key>
+		<dict>
+			<key>from</key>
+			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
+			<key>to</key>
+			<string>4751531C-B72C-4308-AD90-21392D94B713 - 4751531C-B72C-4308-AD90-21392D94B713</string>
 		</dict>
 	</dict>
 	<key>variables</key>
