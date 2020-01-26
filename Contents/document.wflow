@@ -390,7 +390,7 @@ if [ "$SORT" != "false" ]; then
 	SORT_ORDER_NAME="cat"
 	if [ "${SORT##* - }" == "Descending" ]; then
 		SORT_ORDER="sort --reverse"
-		SORT_ORDER_NAME="tac"
+		SORT_ORDER_NAME="tail -r"
 	fi
 
 	# SORT = "Field" now
@@ -541,21 +541,21 @@ fi</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>13397D12-27F3-4293-818F-9891F5CF8BB4</key>
-		<dict>
-			<key>from</key>
-			<string>70F6F4D7-0B41-4AA2-8A57-D056BEE53D21 - 70F6F4D7-0B41-4AA2-8A57-D056BEE53D21</string>
-			<key>to</key>
-			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
-		</dict>
-		<key>A982F203-F71B-473B-B267-3AFAABF7B23A</key>
+		<key>24DA740A-C501-4120-BF67-5CBC45884DCF</key>
 		<dict>
 			<key>from</key>
 			<string>4751531C-B72C-4308-AD90-21392D94B713 - 4751531C-B72C-4308-AD90-21392D94B713</string>
 			<key>to</key>
 			<string>8D841DED-DE6C-4090-8653-D34304093735 - 8D841DED-DE6C-4090-8653-D34304093735</string>
 		</dict>
-		<key>F33CE43E-2EED-4AF1-98AE-CED0E6B6C495</key>
+		<key>B96CAFE2-EA4A-4D40-89B9-3AC49D8C3BA3</key>
+		<dict>
+			<key>from</key>
+			<string>70F6F4D7-0B41-4AA2-8A57-D056BEE53D21 - 70F6F4D7-0B41-4AA2-8A57-D056BEE53D21</string>
+			<key>to</key>
+			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
+		</dict>
+		<key>DDDDEC8B-84D5-4F82-B0B9-C3F585CA33BC</key>
 		<dict>
 			<key>from</key>
 			<string>88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB - 88EF14DB-E3E0-4650-8AD7-5838C1FA3FDB</string>
